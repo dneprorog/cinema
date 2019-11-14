@@ -1,0 +1,29 @@
+.film {
+    display: flex;
+    order: 1;
+    width: 390px;
+    margin: 10px;
+}
+
+.date-release {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+img {
+    width: 145px;
+    height: 215px;
+    margin: 15px;
+}
