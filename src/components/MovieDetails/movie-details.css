@@ -1,0 +1,49 @@
+.movie-details-wrapper {
+    padding: 70px 10px 0 10px;
+    background: #232020;
+}
+
+.movie-details-wrapper > .film {
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.movie-details-wrapper > .film > img {
+    width: 400px;
+    height: 500px;
+}
+
+.movie-details-wrapper > .film a {
+    pointer-events: none;
+    cursor: default;
+}
+
+.wrapper-link {
+    border: 1px solid #ffffff;
+    position: absolute;
+    bottom: 200px;
+    right: 60px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.wrapper-link:hover {
+    background: darkslategrey;
+}
+
+.wrapper-link > a {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: dimgray;
+    padding: 20px;
+}
+
+.wrapper-link > a:hover {
+    color: #706e6e;
+}
+
+p {
+    color: #fff;
+}
